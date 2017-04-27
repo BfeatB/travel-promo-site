@@ -1,0 +1,192 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+.top-teaser {
+	background: url(img/teaser-bg.png) center bottom #9bddd8 no-repeat;
+	min-width: 1060px;
+	padding-bottom: 260px;
+}
+.main-wrapper {
+	min-width: 1000px;
+	max-width: 1170px;
+	padding: 0 30px;
+	margin: 0 auto;
+}
+.header {
+	padding: 30px 0;
+	height: 60px;
+}
+.header-left {
+	float: left;
+}
+.header-right {
+	float: right;
+}
+.logo {
+	height: 60px;
+	width: 170px;
+	background: url(img/logo.png);
+	font-size: 0;
+}
+.menu {
+	vertical-align: middle;
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.menu li {
+	color: white;
+	display: inline-block;
+	padding: 10px 15px;
+	margin-left: 30px;
+}
+.menu li:first-child {
+	margin-left: 0;
+}
+.menu a {
+	color: white;
+	text-decoration: none;
+}
+.menu .active {
+	border: 2px solid white;
+	border-radius: 25px;
+}
+
+.user {
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 40px;
+	margin-right: 20px;
+}
+.user-img-wrapper {
+
+	border-radius: 100%;
+	overflow: hidden;
+
+}
+.user:after {
+	position: absolute;
+	content: "";
+	width: 0;
+	height: 0;
+	left: 100%;
+	top: 50%;
+	border: 6px solid transparent;
+	border-top-color: white;
+	margin-left: 5px;
+	
+}
+.lead {
+	font-family: "Rubik Mono One";
+	color: white;
+	font-size: 34pt;
+	text-align: center;
+	margin-top: 120px;
+}
+.lead span {
+	color: #01a2a6;
+}
+.lead-text {
+	color: white;
+	text-align: center;
+	line-height:30px;
+}
+.teaser-button {
+	color: black;
+	font-size: 16pt;
+	padding:25px;
+	background: #ffffa6;
+	border-radius: 35px;
+	border: 0;
+	text-transform: uppercase;
+	line-height: 20px;
+}
+.teaser-button-wrapper {
+	text-align: center;
+	margin-top: 45px;
+}
+.about {
+	margin: auto;
+	width: 1230px;
+	max-height: 383px;
+	margin-top: -75px;
+}
+
+.white-img {
+	background: url(img/about-bg.png);
+	width: 1230px;
+	height: 260px;
+}
+.city-img {
+	float:left;
+	margin-left: 60px;
+	margin-top: 100px;
+}
+.headline {
+	font-family: "Rubik Mono One";
+	color: #29d9c2;
+	font-size: 35pt;
+}
+.text	{
+	color: #777777;
+	font-size: 12pt;
+	line-height:30px;
+	padding-top: 10px;
+}
+.about-malang {
+	padding-top: 120px;
+	padding-left:600px;
+}
+.headline span {
+	color: #01a2a6;
+}
+.about-city {
+	padding-left:600px;
+}
+.middle-teaser {
+	background: #f2fefe;
+	margin: 0;
+	margin-top: 160px;
+	height: 1455px;
+}
+.articles	{
+	min-height: 280px;
+	max-width: 1230px;
+	margin: auto;
+}
+.third	{
+	padding-top: 55px;
+	padding-left:100px;
+}
+.s-part {
+	padding-left: 100px;
+	margin-top:0;
+}
+.i-info	{
+	float: right;
+	padding-right: 170px;
+	margin: 0;
+	display: inline-block;
+	min-width: 180px;
+	margin-top: -170px;
+}
+.info-img {
+	position: absolute;
+	float:left;
+}
+.info {
+	position: relative;
+	margin-top:-10px;
+	margin-left: 30px;
+	color: #c1c1c1;
+}
+.search {
+	width: 970px;
+	height: 63px;
+	background: red;
+	margin: auto;
+
+}
